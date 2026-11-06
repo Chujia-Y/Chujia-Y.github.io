@@ -22,7 +22,7 @@ GitHub 仓库：https://github.com/Chujia-Y/Chujia-Y.github.io
 1. 登录 GitHub，打开上面的仓库地址，确认当前分支是 **main**。
 2. 在文件列表中点击要修改的文件，例如 **index.html**。
 3. 点击文件右上角的铅笔图标 **Edit this file**。
-4. 找到方括号中的占位内容，直接替换文字。保留周围的 HTML 标签，例如 <p>、<h1>、<li> 和 </li>。
+4. 找到方括号中的占位内容，直接替换文字。保留周围的 HTML 标签，例如 &lt;p&gt;、&lt;h1&gt;、&lt;li&gt; 和 &lt;/li&gt;。
 5. 点击右上角 **Commit changes...**，写一句说明，例如 “Update home page information”。
 6. 选择直接提交到 **main**，再点击 **Commit changes**。
 7. 等待 GitHub Pages 完成更新，然后刷新 https://chujia-y.github.io/ 查看效果。
@@ -61,7 +61,7 @@ GitHub 仓库：https://github.com/Chujia-Y/Chujia-Y.github.io
 
 ## 5. 新增一条研究经历
 
-打开 **research.html**。每一条经历都是从 <article class="entry"> 到对应 </article> 的完整段落。复制其中一整段，在下一条经历前粘贴，然后修改日期、标题、机构、角色和描述。示例：
+打开 **research.html**。每一条经历都是从 &lt;article class="entry"&gt; 到对应 &lt;/article&gt; 的完整段落。复制其中一整段，在下一条经历前粘贴，然后修改日期、标题、机构、角色和描述。示例：
 
 ~~~html
 <article class="entry">
